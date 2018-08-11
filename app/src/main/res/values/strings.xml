@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Lifepointcounter</string>
+    <string name="reset">Reset</string>
+    <string name="playernr">1/2 Spieler</string>
+    <string name="set_timer">Timer</string>
+    <string name="show_history">Verlauf anzeigen</string>
+    <string name="new_background">Neuer App-Hintergrund</string>
+    <string name="dice">Würfel</string>
+    <string name="color">Schriftfarbe ändern</string>
+    <string name="choose_song">Alarmsound ändern</string>
+    <string name="abort">Abbrechen</string>
+    <string name="start">Start</string>
+    <string name="standard">Standard</string>
+    <string name="timeout">Timeout!</string>
+    <string name="ok">OK</string>
+    <string name="without_alarm">Kein Alarm</string>
+    <string name="notes">Notizen</string>
+    <string name="info">Info</string>
+    <string name="player1">Spieler 1</string>
+    <string name="player2">Spieler 2</string>
+    <string-array name="coming_soon_messages">
+        <item>Kommt noch!</item>
+        <item>Hetz mich nicht!</item>
+        <item>Ist in Arbeit.</item>
+        <item>Bin gerade dabei.</item>
+        <item>*hier gewünschte Funktion denken*</item>
+        <item>Ich BIN die Funktion!</item>
+        <item>Nicht für dich!</item>
+        <item>Um diese Funktion zu nutzen musst du als Admin angemeldet sein.</item>
+        <item>Du willst diese Funktion doch garnicht.</item>
+        <item>Mach es doch selber.</item>
+        <item>Diese Funktion macht die Nachtschicht.</item>
+        <item>Um diese Uhrzeit nicht verfügbar.</item>
+        <item>Aber das kann ich noch garnicht, User-senpai. *blush*</item>
+        <item>Mehr Toasts = weniger Funktionen!</item>
+        <item>Bald verfügbar.</item>
+        <item>Niemand hat vor eine Funktion zu implementieren!</item>
+        <item>Nach dem Kaffee setz ich mich ran.</item>
+        <item>Haben Sie schon versucht es aus- und wieder anzuschalten?</item>
+        <item>Nach einer kurzen Werbeunterbrechung implementieren wir diese Funktion.</item>
+        <item>Kommt in Version 2.43.0</item>
+        <item>Die Funktion ist eine Lüge.</item>
+        <item>01000101 11100111</item>
+        <item>Nope.</item>
+        <item>Versuch es später wieder.</item>
+        <item>Die gewählte Funktion ist derzeit nicht erreichbar.</item>
+    </string-array>
+</resources>

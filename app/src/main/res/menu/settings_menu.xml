@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/reset"
+        android:title="@string/reset" />
+    <item
+        android:id="@+id/player_1_2"
+        android:title="@string/playernr" />
+    <item
+        android:id="@+id/timer"
+        android:title="@string/set_timer" />
+    <item
+        android:id="@+id/dice"
+        android:title="@string/dice" />
+    <item
+        android:id="@+id/color"
+        android:title="@string/color" />
+    <item
+        android:id="@+id/new_background"
+        android:title="@string/new_background" />
+    <item
+        android:id="@+id/info"
+        android:title="@string/info" />
+</menu>

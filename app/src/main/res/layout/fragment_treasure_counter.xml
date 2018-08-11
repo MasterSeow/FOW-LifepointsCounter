@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/black_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:text="⟰" />
+
+            <TextView
+                android:id="@+id/black"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:text="0"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/black_down"
+                android:text="⟱"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/blue_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="⟰" />
+
+            <TextView
+                android:id="@+id/blue"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#0033ff"
+                android:text="0"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/blue_down"
+                android:text="⟱"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/red_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="⟰" />
+
+            <TextView
+                android:id="@+id/red"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#ff0000"
+                android:text="0"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/red_down"
+                android:text="⟱"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/green_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="⟰" />
+
+            <TextView
+                android:id="@+id/green"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#1eff00"
+                android:text="0"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/green_down"
+                android:text="⟱"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/yellow_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="⟰" />
+
+            <TextView
+                android:id="@+id/yellow"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#ffdd00"
+                android:text="0"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/yellow_down"
+                android:text="⟱"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#ffffff"
+        tools:context=".NotesFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notes"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <EditText
+            android:id="@+id/notes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:labelFor="@id/notes" />
+
+    </LinearLayout>
+
+</LinearLayout>
